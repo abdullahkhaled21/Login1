@@ -28,9 +28,9 @@ class _LoginState extends State<Login> {
           children: [
             Text(
               'CodePlayon',
-              style: TextStyle(fontSize: 18.0, color: Colors.blue),
+              style: TextStyle(fontSize: 30.0, color: Colors.blue),
             ), // Added "Hello" text with blue color
-            SizedBox(height: 16.0),
+            SizedBox(height: 100.0),
             TextFormField(
               decoration: InputDecoration(
                 hintText: 'User Name',
